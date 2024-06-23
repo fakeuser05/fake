@@ -1,0 +1,37 @@
+*
+{
+    background-color: #EBF5FF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1
+{
+    font-size: 400%;
+    margin-top: 20%;
+    color: #58A5EB;
+}
+a.play
+{
+    display: inline-block;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #58A5EB;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+    transition: background-color 0.3s ease;
+}
+
+a.play:hover {
+    background-color: #f5f5f5;
+}
+footer 
+{
+    margin-top: 25%;
+    bottom: 5%;
+    color: #58A5EB;
+    font-size: 0.8rem;
+}

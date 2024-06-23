@@ -1,0 +1,117 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #EBF5FF;
+    margin: 0;
+}
+#top-result
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 1.2rem;
+}
+#score-num
+{
+    font-size: 3rem;
+    color: #56a5eb;
+}
+#progress-bar 
+{
+    width: 20%;
+    height: 40px;
+    margin-left: 8%;
+    background-color: white;
+    border-color: #56a5eb;
+    border-style: double;
+    margin-bottom: 1rem;
+}
+
+#progress-bar-full {
+    height: 100%;
+    background-color: #56a5eb;
+    width: 0%;
+    transition: width 0.5s ease;
+}
+#game
+{
+    padding: 10%;
+    padding-bottom: 5%;
+    padding-top: 4%;
+}
+#question
+{
+    font-size: 2rem;
+}
+.choice-container {
+    display: flex;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 0.1rem solid rgba(86, 165, 235, 0.25);
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.choice-container:hover 
+{
+    background-color: rgba(86, 165, 235, 0.1);
+}
+.choice-prefix 
+{
+    margin: 0;
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: white;
+    border-radius: 5px 0 0 5px;
+}
+.choice-text 
+{
+    padding: 0.8rem;
+    width: 100%;
+}
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
+.container
+{
+    margin-top: 25%;
+}
+.flex-center 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column 
+{
+    flex-direction: column;
+}
+.btn {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 5px;
+    background-color: #56a5eb;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+footer 
+{
+    margin-left: 39%;
+    bottom: 5%;
+    color: #58A5EB;
+    font-size: 0.8rem;
+}
+#endhtml
+{
+    padding: 5%;
+}
